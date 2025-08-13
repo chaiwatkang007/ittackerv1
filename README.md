@@ -71,11 +71,9 @@ Login to the web app
 Press F12 → open Console
 
 Type:
-
-javascript
-Copy
-Edit
+```bash
 console.log("Socket Connected:", window.socket?.connected);
+```
 If you see true, WebSocket is connected successfully.
 <img width="1919" height="950" alt="image" src="https://github.com/user-attachments/assets/61ec7433-7f87-4ec9-b2a3-e3cb684f9e96" />
 
